@@ -12,6 +12,9 @@ def input_2_number(some_input):
 
 
 def lab2_1(some_input):
+    '''
+        Функция выводит уведомление, что было введено число
+    '''
     some_input = input_2_number(some_input)
     if some_input:
         print(f"Вы ввели число: {some_input}")
